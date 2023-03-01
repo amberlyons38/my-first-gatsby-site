@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "My First Gatsby Site",
   },
+  pathPrefix: "/my-first-gatsby-site",
   plugins: [
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
