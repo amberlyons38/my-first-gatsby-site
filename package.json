@@ -8,7 +8,6 @@
     "gatsby"
   ],
   "scripts": {
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "develop": "gatsby develop",
     "start": "gatsby develop",
     "build": "gatsby build",
@@ -16,15 +15,13 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "gatsby": "^5.6.0",
+    "@mdx-js/react": "^2.3.0",
+    "gatsby": "^5.9.0",
     "gatsby-plugin-image": "^3.7.0",
+    "gatsby-plugin-mdx": "^5.9.0",
     "gatsby-plugin-sharp": "^5.7.0",
     "gatsby-source-filesystem": "^5.7.0",
-    "gatsby-source-graphql": "^5.7.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  },
-  "devDependencies": {
-    "gh-pages": "^5.0.0"
   }
 }
