@@ -1,0 +1,13 @@
+.headingStyle {
+  margin-bottom: 500;
+    font-family: 'sans-serif';
+    font-size: large;
+}
+
+.leftColumn {
+  column-count: 2;
+  column-span: 1;
+  margin-top: 0;
+  margin-bottom: 64;
+  max-width: 320;
+}
